@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <input type="text" id="input"> -->
+    <div id="container">
+        <input type="text" id="input">
+        <button class="button" id="clr" onclick="clr()">C</button>
+
+        <button class="button" id="block1" value="1" onclick=add(this.value)>1</button>
+        <button class="button" id="block2" value="2" onclick=add(this.value)>2</button>
+        <button class="button" id="block3" value="3" onclick=add(this.value)>3</button>
+        <button class="button" id="plus" value="+" onclick=add(this.value)>+</button>
+
+        <button class="button" id="block4" value="4" onclick=add(this.value)>4</button>
+        <button class="button" id="block5" value="5" onclick=add(this.value)>5</button>
+        <button class="button" id="block6" value="6" onclick=add(this.value)>6</button>
+        <button class="button" id="minus" value="-" onclick=add(this.value)>-</button>
+
+        <button class="button" id="block7" value="7" onclick=add(this.value)>7</button>
+        <button class="button" id="block8" value="8" onclick=add(this.value)>8</button>
+        <button class="button" id="block9" value="9" onclick=add(this.value)>9</button>
+        <button class="button" id="multiply" value="*" onclick=add(this.value)>*</button>
+
+        <button class="button" id="divide" value="/" onclick=add(this.value)>/</button>
+        <button class="button" id="block0" value="0" onclick=add(this.value)>0</button>
+        <button class="button" id="dot" value="." onclick=add(this.value)>.</button>
+        <button class="button" id="ans" value="ans" onclick="ans()">=</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

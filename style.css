@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+}
+#container{
+    background: url("https://casperblog.imgix.net/wp-content/uploads/2021/03/sleep-calculator_1120w-1.png?auto=format");
+    display: flex;
+    align-items: center;
+    justify-content:center ; 
+    flex-wrap: wrap;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(154, 143, 219);
+    padding: 10px;
+    margin: 0 auto;
+    height: 100vh;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.button{
+    width: 75px;
+    height: 75px;
+    background-color: rgb(41, 54, 50);
+    border: 1px solid rgb(50, 6, 245);
+    text-align: center;
+    line-height: 75px;
+    margin: 10px;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.button:hover{
+    color: #3683f7dc;
+    background-color: rgb(133, 250, 250);
+}
+#container:hover{
+    background-image: url("https://cdn.wallpapersafari.com/97/45/lX5Cbw.jpg");
+     background-repeat: no-repeat;
+    background-position: center; 
+}
+input{
+    padding: 10px;
+   font-weight: 900;
+   margin-left: 50px;
+}
+ 
