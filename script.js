@@ -2,6 +2,12 @@ let num = '';
 let answer = ''
 
 function add(value) {
+    if (value == '*' || value == '/') {
+        if (!num) {
+            return;
+        }
+    }
+
     console.log(value);
     num = num + value;
     document.getElementById("input").value = num;
